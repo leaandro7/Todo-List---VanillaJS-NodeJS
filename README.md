@@ -12,5 +12,4 @@ O sistema permite:
 
 O objetivo do projeto é praticar e demonstrar o uso de tecnologias web sem frameworks front-end, focando em lógica, integração com API REST e manipulação de dados com MongoDB.
 
-
-![2025-07-23-13-19-57](https://github.com/user-attachments/assets/30edeef7-91ac-4b20-b1cd-da7f7f8b8cbd)
+![2025-07-23-13-19-57-_online-video-cutter com_-_1_](https://github.com/user-attachments/assets/588c8ab9-8be0-4acb-b492-970b9726fcd8)
