@@ -1,7 +1,5 @@
 # Todo-List---VanillaJS-NodeJS
 
-# TodoList - ( VanillaJS + NodeJS )
-
 Este é um projeto de uma aplicação de lista de tarefas (Todo List), desenvolvida com JavaScript puro (VanillaJS) no front-end, Node.js no back-end e MongoDB como banco de dados.
 
 O sistema permite:
