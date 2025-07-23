@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header-container">
+        <h1>TODO LIST</h1>
+
+        <div class="form-container">
+          <input id="inputTask" type="text" />
+          <button onclick="newTask()">
+            <i class="fa fa-plus" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+
+      <ul id="taskList" class="tasks-container">
+        <!-- <li class="task-item checked"><p>Item</p><span onclick="openEditModal('67c70b3a7e8e7cb84351fdda')"><i class="fa fa-pencil" aria-hidden="true"></i></span></li> -->
+      </ul>
+
+      <button onclick="clearTasks()" class="clear-tasks">
+        <i class="fa fa-trash" aria-hidden="true"></i>
+      </button>
+    </div>
+
+    <div id="modal" class="edit-modal-background">
+      <div class="edit-container">
+        <button class="edit-close-container" onclick="closeEditModal()">
+          <i class="fa fa-times-circle" aria-hidden="true"></i>
+        </button>
+
+        <h2>Edite sua Tarefa</h2>
+
+        <div class="edit-input-container">
+          <input
+            id="editInputTask"
+            type="text"
+            name="taskName"
+            placeholder="Edite seu texto"
+          />
+          <button onclick="editTask()">Salvar edição</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
