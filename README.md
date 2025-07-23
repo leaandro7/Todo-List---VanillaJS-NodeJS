@@ -11,3 +11,6 @@ O sistema permite:
 - Remover tarefas
 
 O objetivo do projeto é praticar e demonstrar o uso de tecnologias web sem frameworks front-end, focando em lógica, integração com API REST e manipulação de dados com MongoDB.
+
+
+![2025-07-23-13-19-57](https://github.com/user-attachments/assets/30edeef7-91ac-4b20-b1cd-da7f7f8b8cbd)
